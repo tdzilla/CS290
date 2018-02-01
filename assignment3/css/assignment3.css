@@ -1,0 +1,176 @@
+html{
+  background-image: url("background.jpg");
+  background-repeat: repeat-x repeat-y;
+}
+
+header{
+  background-image: url("headerbackground.jpg"); height: 25px;
+  width: 100%;
+  left: 0px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+}
+
+nav{
+  z-index: 3 inherit: ;
+}
+
+body{
+  width: 80%;
+  left: 10%;
+  top: 30px;
+  position: relative;
+}
+
+footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #33ccff;
+  text-align: center;
+  padding: 7px;
+}
+
+.border{
+  align-self: center;
+  border-top-style: hidden;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  box-shadow: 1px 1px 0px 1px grey;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-color: black;
+  padding: 5px;
+}
+
+h1{
+  font-family: "Arial", serif;
+  padding: 5px;
+}
+
+h2{
+  margin: 10px;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p.indent {
+  text-indent: 2em;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+
+
+a{
+  padding-right: 30px;
+}
+
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: green;
+}
+
+.bodyImage{
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px grey;
+  float: left;
+  margin: 10px;
+}
+
+ul{
+  list-style-image: url("icon.png");
+}
+
+.dropbtn {
+  background-color: grey;
+  color: blue;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 75px;
+  z-index: 3;
+  text-align: left;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: blue}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  display: block;
+}
+
+.tile{
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+  background: linear-gradient(lightgrey, grey);
+  display: inline-block;
+}
+
+.wrap{
+  width: 1000px;
+}
+
+.tileButton {
+  text-align: right;
+}
+
+.resetAndClear{
+  display: inline-block;
+}
+
+.hiddenForm {
+  display: none;
+}
+
+.hiddenTextArea{
+  width: 500px;
+  height: 500px;
+  display: block;
+}
+
+.tileImage{
+  display: block;
+  margin: 0 auto;
+}
